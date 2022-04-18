@@ -11,12 +11,14 @@ The purpose of this project is to analyze data concerning AutoRUs' prototype, th
 ## Resources
 
 Data source:
+
     MechaCar_mpg.csv
     Suspension_Coil.csv
 
 <!-- "pip show <software>" in command prompt to see pip install ver -->
 <!-- pip show code from https://stackoverflow.com/questions/10214827/find-which-version-of-package-is-installed-with-pip -->
 Software:
+
     R 4.1.3
     RStudio
 
@@ -33,9 +35,15 @@ The analysis suggests that there exists a high probability that we can reject th
 
 Since only two out of five independent variables hold a significant relationship with the dependent variable mpg, the current model predicts the MechaCar prototypes less effectively than an updated model where the insignificant independent variables were removed. This a sign of overfitting and may fail to generalize or infer meaningful results from subsequent data.
 
-mechacar_lm
+#### MechaCar Multiple Linear Regression
 
-mechacar_summary
+![mechacar_lm](https://user-images.githubusercontent.com/96349090/163808128-8c137ad6-4ca6-44cc-9a8d-9a05adbf7d15.png)
+
+
+#### MechaCar Linear Regression Summary
+
+![mechacar_summary](https://user-images.githubusercontent.com/96349090/163808211-9213bd2d-37f6-422a-ab34-d4f837fb0631.png)
+
 
 ---
 
@@ -45,9 +53,15 @@ mechacar_summary
 Based on summary statistics, overall the variance of suspension coils of all manufacturing lots is 62.29356 pounds per square inch (psi). The variance of suspension coils of Lot 1 is 0.9795918 psi. The variance of suspension coils of Lot 2 is 7.4693878 psi. The variance of suspension coils of Lot 3 is 170.2861224 psi. 
 The design specifications for the MechaCar suspension coils require that the variance of the suspension coils must not exceed 100 pounds per square inch. This implies that manufacturing lots overall meet the design specifications but individually Lot 3 does not.
 
-total_summary
+#### Total Summary Statistics
 
-lot_summary
+![total_summary](https://user-images.githubusercontent.com/96349090/163807989-118c173a-ae6b-4c80-acfd-24f2c30d5cc6.png)
+
+
+#### Lot Summary Statistics
+
+![lot_summary](https://user-images.githubusercontent.com/96349090/163808035-9a037f66-2112-4970-ba47-3118c9b0c78f.png)
+
 
 ---
 
@@ -58,13 +72,25 @@ The sample mean of suspension coils in manufacturing lots overall compared to th
 
 Assuming a general 95% confidence level, in order to reject the null hypothesis which states that the sample mean is not significantly different than the population mean, the absolute value of t score (|t|) has to be greater than or equal to 1.984 with 100 df's, |t| has to be greater than or equal to 2.021 with 40 df's, and p-value has to be less than or equal to 0.05. Based on the t-test results, the sample mean of suspension coils in manufacturing lots overall and Lots 1 and 2 individually are statistically similar to the population mean. The sample mean from Lot 3 may be significantly different than the population mean.
 
-psi_t-test
+#### Total T-Test
 
-lot1_t-test
+![psi_t-test](https://user-images.githubusercontent.com/96349090/163808281-8668d95a-fc77-486e-9003-75044990c140.png)
 
-lot2_t-test
 
-lot3_t-test
+#### Lot 1 T-Test
+
+![lot1_t-test](https://user-images.githubusercontent.com/96349090/163808329-35d863bc-cc41-497e-b748-010fc4cdef7f.png)
+
+
+### Lot 2 T-Test
+
+![lot2_t-test](https://user-images.githubusercontent.com/96349090/163808416-85b4f707-deb5-4530-b5da-98bd337319b2.png)
+
+
+#### Lot 3 T-Test
+
+![lot3_t-test](https://user-images.githubusercontent.com/96349090/163808450-4da4e691-9cda-4ae4-91d1-c209724dedb3.png)
+
 
 ---
 
