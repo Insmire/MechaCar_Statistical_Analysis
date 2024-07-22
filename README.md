@@ -1,6 +1,6 @@
 ## Overview
 
-The purpose of this project is to analyze data concerning AutoRUs' prototype, the MechaCar, to assist manufacturing team's production. To this end, we 
+The purpose of this project is to analyze data concerning AutoRUs' prototype, the MechaCar, to assist the manufacturing team's production. To this end, we 
 * utilize multiple linear regression to ascertain the variables that may predict the miles per gallon (mpg) of the MechaCar,
 * employ summary statistics to determine whether suspension coils of manufacturing lots overall and individually meet design specifications,
 * conduct one-sample two-tailed t-tests with a 95 % confidence level to deduce whether suspension coils of manufacturing lots overall and individually is significantly different from the population mean, and
